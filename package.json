@@ -1,0 +1,16 @@
+{
+  "name": "research-db-app",
+  "version": "1.0.0",
+  "description": "Dataset discovery app powered by OpenAI",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js",
+    "check": "node --check server.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "openai": "^4.56.0"
+  }
+}
