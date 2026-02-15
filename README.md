@@ -23,6 +23,8 @@ PORT=3000
 npm start
 ```
 
+`npm start` は `node --env-file-if-exists=.env server.js` を実行するため、`env $(grep -v '^#' .env | xargs) ...` の指定は不要です。
+
 ブラウザで `http://localhost:3000` を開いて利用できます。
 
 ## Features
